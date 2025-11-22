@@ -19,9 +19,9 @@ public class LibrarySimulator {
 			// main menu.
 			System.out.println("\n WELCOME TO THE SMART LIBRARY  ");
 			System.out.println("\nMain Menu\n"); 
-			System.out.println("1- Login account 1: "+ account1.getName() + ", ID number:"+ account1.getId());
-			System.out.println("2- Login account 2: "+ account2.getName() + ", ID number:"+ account2.getId());
-			System.out.println("3- Login account 3: "+ account3.getName() + ", ID number:"+ account3.getId());
+			System.out.println("1- Login account 1: "+ account1.getName() + ", ID number:"+ account1.getId());//using getter in name and id
+			System.out.println("2- Login account 2: "+ account2.getName() + ", ID number:"+ account2.getId());//using getter in name and id
+			System.out.println("3- Login account 3: "+ account3.getName() + ", ID number:"+ account3.getId());//using getter in name and id
 			System.out.println("4- login as Administrator");
 			System.out.println("5- Exit the program ");
 			System.out.println("Enter your option :(put the number of the option only)");
@@ -33,7 +33,7 @@ public class LibrarySimulator {
 			if (option >=1 && option<=3) {
 				Member currentAccount; // variable to save current accounts
 			 if (option == 1) {
-				 currentAccount = account1;
+				 currentAccount = account1;//using the variable
 			}
 			else if (option == 2 ) {
 				currentAccount = account2;
@@ -143,4 +143,6 @@ public class LibrarySimulator {
 }
 
 }
+
+
 
