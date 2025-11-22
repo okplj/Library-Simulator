@@ -2,6 +2,7 @@ package project1;
 // class named Member
 public class Member {
 	//  declaring attributes
+	// add private attributes
 private int id;
 private String name;
 private int borrowedCount; 
@@ -9,7 +10,7 @@ private int numviewBorrowed;
 private int numBorrowes;
 private int numReturns;
 private double sessionFees;
-
+// add public attributes
 public static double TotalRevenue;
 public static int TotalViewBorrowed;
 public static int TotalBorrows;
@@ -86,4 +87,5 @@ public String getName() {
 }
 
 }
+
 
