@@ -6,7 +6,7 @@ public class LibrarySimulator {
 
 	public static void main(String[] args) {
 		Scanner helper = new Scanner(System.in); // scanner for inputs.
-		// defining accounts by using constructor Member // using a constructor member to a defined the accounts
+		// defining accounts by using constructor Member
 		Member account1 =new Member(11,"Saleh",0);
 		Member account2 =new Member(22,"Faisal",0);
 		Member account3 = new Member(33,"Ali",0); 
@@ -19,9 +19,9 @@ public class LibrarySimulator {
 			// main menu.
 			System.out.println("\n WELCOME TO THE SMART LIBRARY  ");
 			System.out.println("\nMain Menu\n"); 
-			System.out.println("1- Login account 1: "+ account1.getName() + ", ID number:"+ account1.getId());//using getter in name and id
-			System.out.println("2- Login account 2: "+ account2.getName() + ", ID number:"+ account2.getId());//using getter in name and id
-			System.out.println("3- Login account 3: "+ account3.getName() + ", ID number:"+ account3.getId());//using getter in name and id
+			System.out.println("1- Login account 1: "+ account1.getName() + ", ID number:"+ account1.getId());
+			System.out.println("2- Login account 2: "+ account2.getName() + ", ID number:"+ account2.getId());
+			System.out.println("3- Login account 3: "+ account3.getName() + ", ID number:"+ account3.getId());
 			System.out.println("4- login as Administrator");
 			System.out.println("5- Exit the program ");
 			System.out.println("Enter your option :(put the number of the option only)");
@@ -31,9 +31,9 @@ public class LibrarySimulator {
 			
 			// login to the defined accounts.
 			if (option >=1 && option<=3) {
-				Member currentAccount; // variable to save current accounts
+				Member currentAccount;
 			 if (option == 1) {
-				 currentAccount = account1;//using the variable
+				 currentAccount = account1;
 			}
 			else if (option == 2 ) {
 				currentAccount = account2;
@@ -141,8 +141,4 @@ public class LibrarySimulator {
 			}
 		helper.close(); // close the scanner.
 }
-
 }
-
-
-
