@@ -6,7 +6,7 @@ public class LibrarySimulator {
 
 	public static void main(String[] args) {
 		Scanner helper = new Scanner(System.in); // scanner for inputs.
-		// defining accounts by using constructor Member
+		// defining accounts by using constructor Member // using a constructor member to a defined the accounts
 		Member account1 =new Member(11,"Saleh",0);
 		Member account2 =new Member(22,"Faisal",0);
 		Member account3 = new Member(33,"Ali",0); 
@@ -141,4 +141,5 @@ public class LibrarySimulator {
 			}
 		helper.close(); // close the scanner.
 }
+
 }
