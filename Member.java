@@ -15,7 +15,7 @@ public static double TotalRevenue;
 public static int TotalViewBorrowed;
 public static int TotalBorrows;
 public static int TotalReturns;
-// constructor
+// constructor // add a constructor
 public Member(int id, String name, int borrowedCount) {
 	this.id = id;
 	this.name = name;
@@ -87,5 +87,6 @@ public String getName() {
 }
 
 }
+
 
 
