@@ -33,7 +33,7 @@ public class LibrarySimulator {
 			if (option >=1 && option<=3) {
 				Member currentAccount; // variable to save current accounts
 			 if (option == 1) {
-				 currentAccount = account1;
+				 currentAccount = account1;//using the variable
 			}
 			else if (option == 2 ) {
 				currentAccount = account2;
@@ -143,4 +143,5 @@ public class LibrarySimulator {
 }
 
 }
+
 
