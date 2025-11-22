@@ -31,7 +31,7 @@ public class LibrarySimulator {
 			
 			// login to the defined accounts.
 			if (option >=1 && option<=3) {
-				Member currentAccount;
+				Member currentAccount; // variable to save current accounts
 			 if (option == 1) {
 				 currentAccount = account1;
 			}
@@ -143,3 +143,4 @@ public class LibrarySimulator {
 }
 
 }
+
