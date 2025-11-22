@@ -22,7 +22,7 @@ public Member(int id, String name, int borrowedCount) {
 	this.borrowedCount = borrowedCount;
 	
 }
-// checking the ability to borrow books
+// checking the ability to borrow books // add the methods
 private boolean canBorrow() {
 	return borrowedCount < 5;
 }
@@ -87,6 +87,7 @@ public String getName() {
 }
 
 }
+
 
 
 
